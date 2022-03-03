@@ -1,6 +1,7 @@
 
 steps:
   - label: "Test c-bk-test"
-    command: echo "c-bk-test hello world!"
-
-    
+    command: 
+      - echo "c-bk-test hello world!"
+      - export
+      - set
